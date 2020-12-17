@@ -1,0 +1,657 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+  color: #000;
+  background-color: #fff;
+  background-image: url("../images/bg.png");
+  font-style: normal;
+}
+.check a{
+  color: #fff;
+  text-decoration: none;
+  border: #fff solid 1px;
+          width: 270px;
+  height: 50px;
+text-align: center;
+  line-height: 50px;
+  padding: 20px 100px;
+}
+.check a:hover{
+  text-decoration: underline;
+}
+.common{
+  margin: 0 auto;
+  text-align: center;
+}
+.common p{
+  text-align: center;
+}
+.mainimage img{
+  width: 100%;
+  height: 660px;
+  object-fit: cover;
+}
+.mainimage{
+  position: relative;
+  z-index: 1;
+  margin-bottom: 90px;
+}
+.tategaki{
+  font-family: "Hannari";
+  position: absolute;
+  top:30%;
+  left: 50%;
+  color: #fff;
+ writing-mode: vertical-rl;
+  z-index: 2;
+    text-align: center;
+  width: 24px;
+  height: 300px;
+  font-size: 24px;
+}
+.catch h2{
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.catch p{
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 60px;
+}
+/*------------
+　　ヘッダー
+--------------*/
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+.inner{
+    width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+header h1{
+  position: absolute;
+  margin-right: 30px;
+}
+header nav{
+
+}
+header ul{
+  overflow: hidden;
+    text-align: center;
+}
+header li{
+  float: left;
+  margin-right: 30px;
+  width: 130px;
+  height: 70px;
+  line-height: 70px;
+}
+
+header li:first-child{
+  margin-left: 190px;
+}
+header li a{
+  color: #fff;
+  text-decoration: none;
+}
+header li a:hover,
+.about .navi-about,
+.menu .navi-menu,
+.news .navi-news,
+.reservation .navi-reserve,
+.information .navi-information
+{
+  text-decoration: underline;
+}
+
+header li:last-child{
+  margin-right: 0;
+}
+/*------------
+　　フッター
+--------------*/
+footer{
+  font-family:  "Hannari";
+  background-color: #59793a;
+    color: #fff;
+  text-align: center;
+  line-height: 14px;
+  width: 100%;
+}
+footer nav{
+   width: 960px;
+        height: 40px;
+margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+footer ul{
+  overflow: hidden;
+}
+footer li{
+  float: left;
+   width: 130px;
+  height: 40px;
+    line-height: 40px;
+  text-align: center;
+  margin-right: 30px;
+  padding-top: 10px;
+}
+footer li a{
+    font-family: 'Kosugi Maru';
+  color: #fff;
+  text-decoration: none;
+   font-size: 12px;
+}
+footer li a:hover,
+.home .fnavi-home,
+.about .fnavi-about,
+.menu .fnavi-menu,
+.news .fnavi-news,
+.reservation .fnavi-reserve,
+.information .fnavi-info
+{
+  text-decoration: underline;
+}
+.fas{
+     font-size: 12px;
+}
+footer li:first-child{
+  margin-left: 15px;
+}
+footer li:last-child{
+  margin-right: 15px;
+}
+footer p{
+  text-align: center;
+  font-size: 10px;
+}
+address{
+    font-style: normal;
+    font-size: 10px;
+}
+.last{
+  margin-bottom: 60px;
+}
+.copy{
+  background-color: #4b6e2d;
+  margin-top: 30px;
+  padding: 5px 0;
+}
+
+/*------------
+　　ホーム
+--------------*/
+.home main{
+  margin: 0 auto;
+  text-align: center;
+}
+.home main p{
+  text-align: center;
+}
+/*------------
+ ↓トップスライダー↓
+--------------*/
+.bxslider img{
+  width: 100%;
+  height: 660px;
+  object-fit: cover;
+}
+.bxslider{
+  position: relative;
+  z-index: 1;
+  margin-bottom: 90px;
+}
+.bx-wrapper {
+ box-shadow: none !important; 
+ border: none !important;
+ left: 0 !important;
+ background-color: transparent !important;
+ margin: 0 auto 90px auto!important;
+}
+/*------------
+ ↑トップスライダー↑
+--------------*/
+.home .content{
+  margin-bottom: 160px;
+}
+.home .content h2{
+  margin: 110px 0 50px 0;
+  font-size: 28px;
+  color: #fff;
+}
+.home .content p{
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 110px;
+}
+.home .content .check{
+  margin-bottom: 70px;
+}
+.home .content img{
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+}
+.home .cotop{
+  overflow: hidden;
+}
+.home .cotop figure{
+  float: left;
+  width: 50%;
+  height: 480px;
+}
+.home .shoukai1{
+  float: right;
+  width: 50%;
+  height: 480px;
+  background-color: #4b6e2d;
+}
+.home .counder{
+  overflow: hidden;
+}
+.home .counder figure{
+  float: right;
+  width: 50%;
+  height: 480px;
+}
+.home .shoukai2{
+  float: left;
+  width: 50%;
+  height: 480px;
+  background-color: #4b6e2d;
+}
+.home .news h2{
+  margin-bottom: 70px;
+  font-size: 28px;
+  color: #4c6f30;
+}
+.home .news ul{
+  font-size: 14px;
+    color: #4c6f30;
+  margin-bottom: 90px;
+}
+.home .news li{
+    width: 770px;
+  height: 100px;
+  line-height: 100px;
+  text-align: left;
+  padding-left: 30px;
+  margin: 0 auto;
+  border-bottom: solid 1px #000;
+  list-style-type: none;
+}
+.home .news li a{
+  text-decoration: none;
+  color: #000;
+  padding-left: 50px;
+}
+.home .news li a:hover{
+  text-decoration: underline;
+}
+.home .yoyaku{
+  margin-bottom: 160px;
+    position: relative;
+  z-index: 1;
+}
+.home .yoyaku h2{
+  position: absolute;
+  left:50%;
+    transform: translateX(-50%);
+  z-index: 2;
+  font-size: 28px;
+  color: #fff;
+  margin-top: 90px;
+}
+.home .yoyaku img{
+  width: 100%;
+  height: 690px;
+  object-fit: cover;
+}
+.home .yoyaku .check{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  bottom:110px;
+  z-index: 2;
+}
+/*------------
+ 一休庵について
+--------------*/
+.about .tategaki{
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+}
+.about .abcont{
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 160px;
+}
+.about .abcont h2{
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  padding: 40px 0 20px 0;
+}
+.about .abcont p{
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  padding: 0 40px;
+}
+.about .abcont .sen{
+  width: 360px;
+  height: 350px;
+  background-color: #59793a;
+}
+.aptern{
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.aptern figure{
+  float: left;
+}
+.aptern .sen{
+  float: right;
+}
+.bptern{
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.bptern figure{
+  float: right;
+}
+.bptern .sen{
+  float: left;
+}
+.cptern{
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.cptern figure{
+  float: left;
+}
+.cptern .sen{
+  float: right;
+}
+.dptern{
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.dptern figure{
+  float: right;
+}
+.dptern .sen{
+  float: left;
+}
+/*------------
+ 商品のご案内
+--------------*/
+.menu .tategaki{
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+}
+.menu article{
+  margin-bottom: 160px;
+}
+.menu .products{
+  width: 960px;
+  margin: 0 auto;
+}
+.menu .products h2{
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  padding: 40px 0 30px 0;
+}
+.menu .products p{
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  text-align: justify;
+  padding: 0 40px 0 40px;
+  margin-bottom: 160px;
+}
+.menu .subcon p{
+  padding: 0 20px 0 20px;
+}
+.menu h3{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+  text-align: justify;
+  padding: 40px 0 30px 20px;
+}
+
+/*おはぎつぶあん*/
+.menu .atype{
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.menu .atype .mf{
+  float: left;
+  margin-right: 10px;
+}
+.menu .atype .msen{
+  float: right;
+  width: 370px;
+  height: 280px;
+  background-color: #59793a;
+  margin-bottom: 10px;
+}
+.menu .atype .ssen{
+  float: right;
+  width: 180px;
+  height: 210px;
+  background-color: #59793a;
+}
+.menu .atype .sf{
+  float: left;
+}
+/*おはぎさくら*/
+.menu .btype{
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.menu .btype .mf{
+  float: right;
+  margin-left: 10px;
+}
+.menu .btype .msen{
+  float: left;
+  width: 370px;
+  height: 280px;
+  background-color: #59793a;
+  margin-bottom: 10px;
+}
+
+.menu .btype .subcon{
+  overflow: hidden;
+  width: 370px;
+}
+.menu .btype .ssen{
+  float: left;
+  width: 180px;
+  height: 210px;
+  background-color: #59793a;
+}
+.menu .btype .sf{
+  float: right;
+}
+
+/*どらやき*/
+.menu .ctype{
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.menu .ctype .mf{
+  float: left;
+}
+.menu .ctype .msen{
+  float: right;
+  width: 370px;
+  height: 280px;
+  background-color: #59793a;
+  margin-bottom: 10px;
+}
+.menu .ctype .ssen{
+  float: right;
+  width: 180px;
+  height: 210px;
+  margin-left: 10px;
+  background-color: #59793a;
+}
+.menu .ctype .sf{
+  float: left;
+  margin-left: 10px;
+}
+/*いちご大福*/
+.menu .dtype{
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.menu .dtype .mf{
+  float: right;
+  margin-left: 10px;
+}
+.menu .dtype .msen{
+  float: left;
+  width: 370px;
+  height: 280px;
+  background-color: #59793a;
+  margin-bottom: 10px;
+}
+.menu .dtype .subcon{
+  overflow: hidden;
+    width: 370px;
+}
+.menu .dtype .ssen{
+  float: left;
+  width: 180px;
+  height: 210px;
+  background-color: #59793a;
+}
+.menu .dtype .sf{
+  float: right;
+}
+/*------------
+ 新着情報
+--------------*/
+.news .tategaki{
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+}
+.news article{
+  margin-bottom: 160px;
+}
+.news .news h2{
+  margin-bottom: 70px;
+  font-size: 28px;
+  text-align: center;
+}
+.news .news ul{
+  font-size: 14px;
+    color: #4c6f30;
+  margin-bottom: 90px;
+}
+.news .news li{
+    width: 770px;
+  height: 100px;
+  line-height: 100px;
+  text-align: left;
+  padding-left: 30px;
+  margin: 0 auto;
+  border-bottom: solid 1px #000;
+  list-style-type: none;
+}
+.news .news li a{
+  text-decoration: none;
+  color: #000;
+  padding-left: 50px;
+}
+.news .news li a:hover{
+  text-decoration: underline;
+}
+/*------------
+ 予約注文
+--------------*/
+.reservation .tategaki{
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+}
+.textcontent {
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 50px;
+}
+.name {
+  margin-bottom: 20px;
+}
+.name p {
+  line-height: 30px;
+}
+input[type="text"] {
+  width: 430px;
+  height: 30px;
+}
+.email {
+  margin-bottom: 20px;
+}
+.email p {
+  line-height: 30px;
+}
+input[type="email"] {
+  width: 430px;
+  height: 30px;
+}
+.tel {
+  margin-bottom: 20px;
+}
+.tel p {
+  line-height: 30px;
+}
+input[type="tel"] {
+  width: 430px;
+  height: 30px;
+}
+.form {
+  margin-bottom: 20px;
+}
+.form p {
+  line-height: 30px;
+}
+textarea[name="comment"] {
+  width: 430px;
+  height: 230px;
+}
+input[type="submit"]{
+  margin-bottom: 210px;
+}
+/*------------
+ 新着情報
+--------------*/
+.information .tategaki{
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
+}
+.information article{
+  margin-bottom: 160px;
+    position: relative;
+  z-index: 1;
+}
+.information iframe{
+  margin-bottom: 50px;
+  width: 960px;
+  height: 600px;
+}
+/*------------
+ 追加・カスタマイズ
+--------------*/
+.headerColor-default {
+  color: #333;
+  /* （画像よりも下までスクロールした時に変えたい文字色） */
+  background-color: rgba(0,0,0,0.5);
+}
