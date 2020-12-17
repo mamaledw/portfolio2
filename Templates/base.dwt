@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+  <link rel="icon" href="../favicon.ico">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>和菓子とお茶のお店|一休庵</title>
+<!-- TemplateEndEditable -->
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
+  <!--↓↓ヘッダー用js↓↓-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/header.js"></script>
+  <script src="https://kit.fontawesome.com/4d66e8cdbd.js" crossorigin="anonymous"></script>
+  <!--↑↑ヘッダー用js↑↑-->
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="class" type="text" value="" -->
+</head>
+
+<body class="@@(_document['class'])@@">
+<div class="page">
+  <header class="js-header">
+    <div class="inner">
+      <h1 class="logo"><a href="/"><img src="../images/mainlogo.png" alt="一休庵"></a></h1>
+      <nav>
+        <ul>
+          <li><a class="navi-about" href="../about.html">一休庵について</a></li>
+          <li><a class="navi-menu" href="../menu.html">商品のご案内</a></li>
+          <li><a class="navi-news" href="../news.html">新着情報</a></li>
+          <li><a class="navi-reserve" href="../reservation.html">予約注文</a></li>
+          <li><a class="navi-information" href="../infomation.html">店舗情報</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- TemplateBeginEditable name="main" -->
+  <main>
+    <div class="common">
+        <div class="mainimage"> <img src="../images/home-main1.jpg" alt="一休庵">
+          <p class="tategaki">ひとやすみ、ひとやすみ。</p>
+        </div>
+      <div class="catch">
+        <h2>和菓子とお茶のカフェ　一休庵。</h2>
+        <p>宇治茶ならではの色・味・香りと<br>
+          日本で古くから親しまれている伝統の和菓子で<br>
+          ほっとひとやすみ。 </p>
+      </div>
+    </div>
+    <div class="content">
+      <div class="cotop">
+        <figure> <img src="../images/home-about.jpg" alt="一休庵について"></figure>
+        <div class="shoukai1">
+          <h2>一休庵について</h2>
+          <p> お茶と和菓子。<br>
+            古き良き日本のくつろぎスタイルを。<br>
+            当店のコンセプトはここからスタートしています。 </p>
+          <div class="check">
+            <p><a href="#">詳しく見る</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="counder">
+        <div class="shoukai2">
+          <h2>商品のご案内</h2>
+          <p class="home-sub2"> 伝統を守りながらも柔軟に変化。<br>
+            多彩な商品づくりを積極的に進めています。<br>
+            当店の自慢のお菓子たちをご堪能ください。<br>
+          </p>
+          <div class="check">
+            <p><a href="#">詳しく見る</a></p>
+          </div>
+        </div>
+        <figure class="f2"> <img src="../images/home-menu.jpg" alt="商品のご案内"></figure>
+      </div>
+    </div>
+    <div class="news">
+      <h2>新着情報</h2>
+      <ul>
+        <li><time datetime="2020-11-09">2020年11月9日</time> <a href="#">お歳暮ギフト特集公開中！【商品のご案内】</a></li>
+        <li><time datetime="2020-11-08">2020年11月8日</time> <a href="#">クリスマス特集公開中！【商品のご案内】</a></li>
+        <li><time datetime="2020-10-30">2020年10月30日</time> <a href="#">１１月休館日のお知らせ</a></li>
+        <li><time datetime="2020-10-25">2020年10月25日</time> <a href="#">【重要】GoToトラベル GoTo EATキャンペーンについて</a></li>
+      </ul>
+    </div>
+    <div class="yoyaku">
+      <h2>ご予約・ご注文</h2>
+      <figure> <img src="../images/home-reserve.jpg" alt="ご予約・ご注文はこちら"></figure>
+      <div class="check">
+        <p><a href="#">詳しく見る</a></p>
+      </div>
+    </div>
+  </main>
+  <!-- TemplateEndEditable -->
+  <footer>
+    <nav>
+      <ul>
+        <li class="fas fa-home"><a class="fnavi-home" href="/">&nbsp;TOP</a></li>
+        <li class="fas fa-info-circle"><a class="fnavi-about" href="../about.html">&nbsp;ABOUT</a></li>
+        <li class="fas fa-cookie"><a class="fnavi-menu" href="../menu.html">&nbsp;MENU</a></li>
+        <li class="fas fa-newspaper"><a class="fnavi-news" href="../news.html">&nbsp;NEWS</a></li>
+        <li class="fas fa-phone-square-alt"><a class="fnavi-reserve" href="../reservation.html">&nbsp;RESERVATION</a></li>
+        <li class="fas fa-map-marker-alt"><a class="fnavi-info" href="../infomation.html">&nbsp;INFOMATION</a></li>
+      </ul>
+    </nav>
+    <p>一休庵</p>
+    <address>
+    000-0000　沖縄県中頭郡北谷町美浜１丁目５−１６
+    </address>
+    <p class="last">営業時間：10時～18時　定休日：不定期<br>
+      電話番号：00-000-0000</p>
+    <a href="#"><img src="../images/footerlogo.png" alt="一休庵"></a>
+    <p class="copy"><small>Copyright&copy; 一休庵 All Rights Reserved</small></p>
+  </footer>
+</div>
+</body>
+</html>
